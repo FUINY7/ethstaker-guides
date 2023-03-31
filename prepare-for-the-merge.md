@@ -294,11 +294,11 @@ When a new version is released, you can update mev-boost. Find the latest stable
 ```console
 $ cd ~
 $ wget https://github.com/flashbots/mev-boost/releases/download/v1.5.0/mev-boost_1.5.0_linux_amd64.tar.gz
-$ sha256sum mev-boost_1.5.0_linux_amd644.tar.gz
-$ tar xvf mev-boost_1.5.0_linux_amd644.tar.gz
+$ sha256sum mev-boost_1.5.0_linux_amd64.tar.gz
+$ tar xvf mev-boost_1.5.0_linux_amd64.tar.gz
 $ sudo systemctl stop mevboost
 $ sudo cp mev-boost /usr/local/bin
-$ rm mev-boost LICENSE README.md mev-boost_1.5.0_linux_amd644.tar.gz
+$ rm mev-boost LICENSE README.md mev-boost_1.5.0_linux_amd64.tar.gz
 $ sudo chown mevboost:mevboost /usr/local/bin/mev-boost
 $ sudo systemctl start mevboost
 ```
